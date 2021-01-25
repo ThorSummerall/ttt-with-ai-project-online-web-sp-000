@@ -69,6 +69,14 @@ class Game
   end
 
   def winner
-    won? ?  @board.cells[won?[0]] : nil
+    if self.over?
+      if draw?
+        nil 
+      else 
+    #if game over 
+      #if draw 
+        #nil 
+      #else
+        #check for player token somehow
   end
 end
