@@ -71,11 +71,11 @@ class Game
   def winner
     if self.over?
       if draw?
-        nil 
-      else 
-    #if game over 
-      #if draw 
-        #nil 
+        nil
+      else
+    #if game over
+      #if draw
+        #nil
       #else
         #check for player token somehow
   end
